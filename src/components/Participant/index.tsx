@@ -7,7 +7,6 @@ type Props = {
 }
 
 export function Participant({ participantName, onRemove }: Props) {
-
     return (
         <View style={styles.container}>
             <Text style={styles.name}>
@@ -17,6 +16,7 @@ export function Participant({ participantName, onRemove }: Props) {
             <TouchableOpacity
                 style={styles.button} 
                 onPress={onRemove}>
+                    
                 <Text
                     style={styles.buttonText}>
                     -

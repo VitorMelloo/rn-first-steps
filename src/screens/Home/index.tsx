@@ -53,6 +53,7 @@ export function Home() {
                 <TouchableOpacity
                     style={styles.button}
                     onPress={handleParticipantAdd}>
+
                     <Text
                         style={styles.buttonText}>
                         +
@@ -65,6 +66,7 @@ export function Home() {
                 keyExtractor={item => item}
                 showsVerticalScrollIndicator={false}
                 renderItem={({ item }) => (
+
                     <Participant
                         key={item}
                         participantName={item}
@@ -72,7 +74,6 @@ export function Home() {
                     />
                 )}>
             </FlatList>
-
         </View>
     );
 }

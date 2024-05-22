@@ -28,5 +28,4 @@ export const styles = StyleSheet.create({
         color: '#FFF',
         fontSize: 24
     }
-    
 })
